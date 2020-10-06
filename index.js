@@ -1,12 +1,12 @@
-var mainText = "Подготовить-среду-программирования-для-Cpp";
+п»їvar mainText = "РџРѕРґРіРѕС‚РѕРІРёС‚СЊ-СЃСЂРµРґСѓ-РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ-РґР»СЏ-Cpp";
 var textT = mainText.replace(/-/g," ")+"?";
 
 mainText = mainText.toLowerCase().replace(/-/g," ").replace(/,/g,""); mainText = mainText.split(" "); var mainTextLen = mainText.length; var mainTextRes = "";
 
 for(var i = 0; mainTextLen>i; i++){mainTextRes+= "#gconstr_"+mainText[i]+" ";}
 
-var prepText = "#gconstr_программирование #gconstr_айтишник #gconstr_программист #gconstr_it #gconstr #инженер #gconstr_инженер #gconstr_автоматизация #gconstr_cpp";
-//var prepText = "#gconstr_асутп #gconstr_асу_тп #gconstr_кипиа #gconstr #инженер #gconstr_инженер #gconstr_электроника #gconstr_электротехника #gconstr_физика"+" "+mainTextRes;
+var prepText = "#gconstr_РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ #gconstr_Р°Р№С‚РёС€РЅРёРє #gconstr_РїСЂРѕРіСЂР°РјРјРёСЃС‚ #gconstr_it #gconstr #РёРЅР¶РµРЅРµСЂ #gconstr_РёРЅР¶РµРЅРµСЂ #gconstr_Р°РІС‚РѕРјР°С‚РёР·Р°С†РёСЏ #gconstr_cpp";
+//var prepText = "#gconstr_Р°СЃСѓС‚Рї #gconstr_Р°СЃСѓ_С‚Рї #gconstr_РєРёРїРёР° #gconstr #РёРЅР¶РµРЅРµСЂ #gconstr_РёРЅР¶РµРЅРµСЂ #gconstr_СЌР»РµРєС‚СЂРѕРЅРёРєР° #gconstr_СЌР»РµРєС‚СЂРѕС‚РµС…РЅРёРєР° #gconstr_С„РёР·РёРєР°"+" "+mainTextRes;
 
 var arr = prepText.split(" ");
 
@@ -21,4 +21,4 @@ function shuffle(arr){
 	return arr;
 }
 
-textT+"\n\n"+shuffle(arr).join(" ").replace(/\s+/g," ");
+textT+"\n\n"+shuffle(arr).join(" ").replace(/\s+/g," "); /*Р’С‹РІРѕРґРёРј СЂРµР·СѓР»СЊС‚Р°С‚*/
